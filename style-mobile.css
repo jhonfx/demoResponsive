@@ -1,0 +1,60 @@
+@viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+h1, h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+section {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #ff333e;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+p {
+    font-family: 'Quicksand', serif;
+    color: black;
+    font-size: 14px;
+}
+
+header {
+    text-align: center;
+    background-color: #C9F5B3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+    border-collapse:separate; 
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+}
+
+tr, td, th, thead, tbody {
+    border: 2px solid black;
+    text-align: center;
+    width: 220px;
+    height: 80px;
+}

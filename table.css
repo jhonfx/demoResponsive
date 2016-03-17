@@ -1,0 +1,131 @@
+/*This is a table style from squarespace */
+table {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+	border-collapse:separate; 
+	border-spacing: 45px;
+	font-family: 'Trebuchet MS';
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+	table {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin: 0 auto;
+		border-collapse:separate; 
+		border-spacing: 15px;
+		font-family: 'Trebuchet MS';
+		font-size: 12px;
+	}
+}
+
+tr, td, th, thead, tbody {
+	border: 2px solid black;
+	border-bottom: 1px solid;
+	text-align: center;
+	width: 220px;
+	height: 80px;
+	-webkit-box-shadow: 2px 2px 5px #999;
+  -moz-box-shadow: 2px 2px 5px #999;
+  filter: shadow(color=#999999, direction=135, strength=2);
+	
+}
+
+/*tr, td, th {
+	padding: 10px;
+}*/
+
+td:hover {
+	color: white;
+	background-color: black;
+	-webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+td {
+	padding:0 15px 0 15px ;
+}
+
+td.space { 
+	border: none;
+	-webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  filter: shadow(color=#999999, direction=135, strength=2);
+}
+.space:hover {
+	background-color: white;
+	color: black;
+}
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
